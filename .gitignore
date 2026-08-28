@@ -1,0 +1,33 @@
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+
+# Frontend dependencies and build output
+front/node_modules/
+front/dist/
+.vite/
+
+# Backend build output and local dependency classpath
+backend/target/
+backend/cp.txt
+
+# Python caches and test artifacts
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime data and logs
+algorithm-runs/
+logs/
+
+# Documentation/source staging copy
+dm/
+
+# Packaged application artifacts
+MGserver-*.jar
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
