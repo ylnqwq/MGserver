@@ -144,6 +144,8 @@ hour,buy_price,sell_price,load_kw,pv_kw,wt_kw
 
 ## 算法说明
 
+MOIABC是独立的优化项目，具体可见https://github.com/ylnqwq/happyMMC
+
 `MOIABC/microgrid_business.py` 是算法业务入口，支持单独运行，也支持由后端异步调用。
 
 直接运行示例：
@@ -151,5 +153,3 @@ hour,buy_price,sell_price,load_kw,pv_kw,wt_kw
 ```powershell
 python MOIABC\microgrid_business.py --input MOIABC\input_template.csv --output MOIABC\results
 ```
-
-如果你要我继续，我可以把这份 README 再补成“带接口请求示例”的版本。
